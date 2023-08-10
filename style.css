@@ -1,0 +1,75 @@
+li {
+    font-size: 25px;
+}
+
+.lesson {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    list-style-type: none;
+    padding: 20px;
+}
+
+li:nth-child(2) {
+    color: chartreuse;
+}
+
+li:nth-child(4) {
+    color: blueviolet;
+}
+
+li:first-child {
+    color: rgb(255, 136, 0);
+}
+
+li:nth-child(3) {
+    color: blue;
+}
+
+li:last-child {
+    color: crimson;
+}
+
+li:hover {
+    color: rgb(255, 0, 221);
+}
+
+li:focus {
+    font-size: 100px;
+}
+
+li:hover {
+    font-size: 50px;
+}
+
+li:disabled {
+    color: aqua;
+}
+
+li:checked {
+    color: rgb(5, 102, 105);
+}
+
+h3:first-child {
+    color: pink;
+}
+
+#greycol {
+    color: gray;
+}
+
+p:nth-child(1) {
+    color: red;
+}
+
+p:disabled {
+    color: green;
+}
+
+
+.yellow {
+    color: yellow;
+}
+
